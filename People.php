@@ -33,6 +33,10 @@ class People{
       return $this->_sex;
   }
   
+  public function hi(){
+      echo $this->_name.'say hi';
+  }
+  
   private $_age,$_name,$_sex;
   
   private static $NUM = 100;
