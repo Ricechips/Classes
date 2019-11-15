@@ -12,6 +12,12 @@ class Man{
     
       this->_age = $age;
       this->_name = $name;
+      
+      MAN::$NUM++;
+    
+      if(MAN::NUM>Man::MAX_MAN_NUM){
+          throw new Exception("不能创建更多的人");
+      }
   }
   
   public function getAge(){
@@ -24,9 +30,14 @@ class Man{
   
   private $_age,$_name;
   
+  private static $NUM = 100;
+  
+  const MAX_MAN_NUM = 200;
+  
   public static function sayHello{
       echo 'Hello Man';
   }
     
+  
   
 }
