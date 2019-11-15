@@ -2,6 +2,11 @@
 
 class Man{
   
+  /**
+   * @param int $age 年龄
+   * @param string $name 名字
+   */
+  
   public function __construct($age,$name){
 //       echo 'Construct a man';
     
