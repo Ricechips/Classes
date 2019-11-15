@@ -1,6 +1,6 @@
 <?php
 
-class Man{
+class People{
   
   /**
    * @param int $age 年龄
