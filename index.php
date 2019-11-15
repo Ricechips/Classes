@@ -16,3 +16,6 @@
 
 // $h = new \yzfhq\Hello();
 // $h->sayHello();
+
+require_once 'Man.php';
+$m = new Man();
