@@ -31,8 +31,8 @@ require_once 'Man.php';
 
 // Man::sayHello();
 
-for($i=0;$i<MAN::MAX_MAN_NUM;$i++){
-  new Man(10,"Ricechips");
+for($i=0;$i<People::MAX_MAN_NUM;$i++){
+  new People(10,"Ricechips");
 }
 ?>
   </body>
