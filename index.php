@@ -18,4 +18,5 @@
 // $h->sayHello();
 
 require_once 'Man.php';
-$m = new Man();
+$m = new Man(22,"syh");
+echo $m->getName();
