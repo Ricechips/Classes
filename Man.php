@@ -24,4 +24,9 @@ class Man{
   
   private $_age,$_name;
   
+  public static function sayHello{
+      echo 'Hello Man';
+  }
+    
+  
 }
