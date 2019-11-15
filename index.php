@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
 <?php
 
 // require_once 'Hello1.php';
@@ -26,3 +34,6 @@ require_once 'Man.php';
 for($i=0;$i<MAN::MAX_MAN_NUM;$i++){
   new Man(10,"Ricechips");
 }
+?>
+  </body>
+</html>
