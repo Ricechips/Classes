@@ -23,6 +23,6 @@ require_once 'Man.php';
 
 // Man::sayHello();
 
-for($i=0;$i<300;$i++){
+for($i=0;$i<MAN::MAX_MAN_NUM;$i++){
   new Man(10,"Ricechips");
 }
