@@ -7,12 +7,13 @@ class People{
    * @param string $name 名字
    */
   
-  public function __construct($age,$name){
+  public function __construct($age,$name,$sex){
 //       echo 'Construct a man';
     
       this->_age = $age;
       this->_name = $name;
-      
+      this->_sex = $sex;
+    
       MAN::$NUM++;
     
       if(MAN::NUM>Man::MAX_MAN_NUM){
@@ -21,14 +22,18 @@ class People{
   }
   
   public function getAge(){
-      return $this->age;
+      return $this->_age;
   }
   
   public function getName(){
-      return $this->name;
+      return $this->_name;
   }
   
-  private $_age,$_name;
+  public function getSex(){
+      return $this->_sex;
+  }
+  
+  private $_age,$_name,$_sex;
   
   private static $NUM = 100;
   
