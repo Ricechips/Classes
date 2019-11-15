@@ -7,3 +7,10 @@ class Hello(){
   }
   
 }
+
+class Desktop{
+    
+  public function work(){
+      echo 'work';
+  }    
+}
