@@ -21,4 +21,8 @@ require_once 'Man.php';
 // $m = new Man(22,"syh");
 // echo $m->getName();
 
-Man::sayHello();
+// Man::sayHello();
+
+for($i=0;$i<300;$i++){
+  new Man(10,"Ricechips");
+}
