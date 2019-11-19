@@ -2,7 +2,7 @@
 
 require_once 'People.php';
 
-class Man extands People{
+class Man extends People{
     
     public function __construct($age,$name){
       parent::__construct($age,$name,'男')
