@@ -43,7 +43,7 @@ class People{
   
   const MAX_MAN_NUM = 200;
   
-  public static function sayHello{
+  public static function sayHello(){
       echo 'Hello Man';
   }
     
